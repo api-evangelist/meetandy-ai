@@ -1,25 +1,88 @@
 aid: meetandy-ai
 name: MeetAndy AI
-description: MeetAndy AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MeetAndy (operated by MeetTomorrow Inc.) is an AI project assistant — an "AI
+  teammate" that lives in Slack, Google Chat, GitHub, GitLab, and Jira and turns
+  plain-language requests into reviewable plans, opens pull requests, runs CI,
+  and reports back. Its Coding Agent writes the code Andy plans and hands off
+  work to human review, while Team Memory preserves architectural decisions and
+  conventions as searchable context. MeetAndy exposes an agent-native surface
+  rather than a public REST API: a hosted MCP server (hub.meetandy.ai) for
+  external tools like Claude Code to read tasks and Spaces, a published llms.txt,
+  and public Claude Code Agent Skills. Founded 2024; backed by 500 Global and
+  NVIDIA Inception.
 url: https://raw.githubusercontent.com/api-evangelist/meetandy-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- nvidia-inception
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://meetandy.ai/images/og-image.jpg
 tags:
 - Company
+- AI
+- Agents
+- Developer Tools
+- DevOps
+- Software Delivery
+- MCP
+- Coding Agent
+- Slack
+- Project Management
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: MeetAndy Engineering
+  email: dev@meetandy.ai
 common:
 - type: Website
   url: https://meetandy.ai
+- type: Documentation
+  url: https://docs.meetandy.ai/en/docs
+- type: GettingStarted
+  url: https://docs.meetandy.ai/en/docs/getting-started
+- type: GitHubOrganization
+  url: https://github.com/meettomorrow
+- type: SignUp
+  url: https://meetandy.ai/design-partners
+- type: TermsOfService
+  url: https://meetandy.ai/terms
+- type: PrivacyPolicy
+  url: https://meetandy.ai/privacy
+- type: MCPServer
+  name: MeetAndy MCP server
+  url: mcp/meetandy-ai-mcp.yml
+- type: AgentSkill
+  name: MeetAndy Claude Code skills
+  url: skills/_index.yml
+- type: LLMsTxt
+  url: llms/meetandy-ai-llms.txt
+- type: ChangeLog
+  name: MeetAndy release notes
+  url: changelog/meetandy-ai-changelog.yml
+- type: DomainSecurity
+  url: security/meetandy-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
