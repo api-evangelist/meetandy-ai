@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+status: published
+source: https://docs.meetandy.ai/en/docs/mcp
+server:
+  name: MeetAndy
+  transport: http
+  url: https://hub.meetandy.ai/api/mcp
+authentication:
+  type: bearer
+  scheme: Bearer
+  credential: personal-access-token
+  notes: >-
+    Create a personal access token in MeetAndy Settings. MeetAndy shows the
+    plaintext token only once. Pass it as an Authorization: Bearer <token>
+    header. Tool group permissions can be scoped per token.
+client_config:
+  file: ~/.claude.json
+  json: |
+    {
+      "mcpServers": {
+        "MeetAndy": {
+          "type": "http",
+          "url": "https://hub.meetandy.ai/api/mcp",
+          "headers": { "Authorization": "Bearer <your-token>" }
+        }
+      }
+    }
+tools:
+  - name: get_task
+    description: Fetch one task by slug (e.g. MPD-123), task UUID, or hub URL.
+  - name: list_tasks
+    description: List tasks. Defaults to your active tasks across all Spaces.
+  - name: list_spaces
+    description: List the Spaces you belong to in this company.
+notes: >-
+  MeetAndy also acts as an MCP client — it can connect third-party MCP services
+  (Notion on by default) so Andy can act on them. This artifact documents the
+  first-party hosted MeetAndy MCP server that external tools (e.g. Claude Code)
+  connect to.

@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/meettomorrow/agent-skills
+distribution:
+  type: claude-code-plugin-marketplace
+  marketplace: meetandy
+  plugin: andy-skills
+  install:
+    - /plugin marketplace add meettomorrow/agent-skills
+    - /plugin install andy-skills@meetandy
+skills:
+  - file: meetandy-ai-address-pr-review.md
+    name: address-pr-review
+    description: >-
+      Triage and respond to PR review feedback — judge whether each comment has
+      merit, fix the valid ones, reply to the rest, and check CI.
+    source: https://github.com/meettomorrow/agent-skills/blob/main/skills/address-pr-review/SKILL.md
+    verbatim: true

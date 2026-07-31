@@ -1,0 +1,47 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.meetandy.ai/en/docs/release-notes
+scheme: date-based
+scheme_notes: >-
+  MeetAndy publishes dated release notes (YYYY-MM-DD) rather than semantic
+  version numbers. There is no public API version string.
+entries:
+  - date: '2026-07-13'
+    highlights:
+      - Connect Jira and Confluence with an API token (scoped access via service accounts).
+      - MCP connections for every company, with Notion on by default.
+      - Space skills management with a browse dialog and search.
+      - Vercel preview deploy links now visible on tasks across platforms.
+    breaking: false
+  - date: '2026-07-06'
+    highlights:
+      - Multi-repository selection (up to 10) when creating Spaces.
+      - Server-side searchable repository picker.
+      - Space Memory budget scaled by number of connected repositories.
+    breaking: false
+  - date: '2026-06-29'
+    highlights:
+      - Network access policy options for cloud agents (Trusted / Full / Custom).
+      - Re-open a task to restore finished work.
+      - Mark tasks complete directly from Slack threads.
+      - Browse Jira tickets by filter instead of requiring an exact key.
+    breaking: false
+  - date: '2026-06-11'
+    highlights:
+      - Slack channel autocomplete in Space settings.
+      - MCP tool group permission controls.
+      - Faster Coding Agent startup with background repository checkout.
+      - Improved handling of large Slack threads (200+ messages).
+    breaking: false
+  - date: '2026-05-20'
+    highlights:
+      - MeetAndy MCP server for external AI tool integration.
+      - Personal access tokens support.
+      - Confluence integration.
+      - Multiple Jira projects per Space.
+    breaking: false
+  - date: '2026-04-17'
+    highlights:
+      - Direct Jira ticket creation, lookup, and updates from Slack.
+      - Ticket attachments and rich content formatting support.
+    breaking: false

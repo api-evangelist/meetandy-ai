@@ -1,0 +1,97 @@
+# Documentation
+
+- [Welcome to MeetAndy](/en/docs): MeetAndy is an AI project assistant that works in Slack alongside your team across GitHub, GitLab, and Jira.
+- Getting started
+  - [Getting started](/en/docs/getting-started): Set up MeetAndy for your team. Activate your account, connect a Git host, optionally Slack and Jira, then create your first Space.
+  - [Activate your account](/en/docs/getting-started/sign-up): Activate your MeetAndy account from the invitation email, then invite the rest of your team.
+  - [Connect GitHub](/en/docs/getting-started/connect-github): Install the MeetAndy GitHub App on your organization.
+  - [Connect GitLab](/en/docs/getting-started/connect-gitlab): Connect MeetAndy to GitLab.com or your self-hosted GitLab instance.
+  - [Connect Slack](/en/docs/getting-started/connect-slack): Install the MeetAndy Slack app and authorize your workspace.
+  - [Connect Google Chat](/en/docs/getting-started/connect-google-chat): Connect your Google Workspace to MeetAndy so your team can talk to Andy in Google Chat spaces.
+  - [Connect Jira (optional)](/en/docs/getting-started/connect-jira): Link your Jira site to MeetAndy so Andy can read and update tickets.
+  - [Connect Confluence (optional)](/en/docs/getting-started/connect-confluence): Link your Confluence site to MeetAndy so Andy can read and write Confluence pages in your Spaces.
+  - [Create a Space](/en/docs/getting-started/create-a-space): Spaces are how MeetAndy organizes work for a project.
+  - [Configure your Space](/en/docs/getting-started/configure-your-space): Link GitHub repos, set the Slack channel, and optionally link a Jira project.
+  - [Space skills](/en/docs/getting-started/space-skills): Browse and manage the Claude Code skills the Coding Agent uses in your Space.
+- Working with Andy in Slack
+  - [Working with Andy in Slack](/en/docs/slack): Mention Andy in any Slack channel to ask questions, plan changes, and hand off implementation work.
+  - [Mentioning Andy](/en/docs/slack/mentioning-andy): How to get Andy's attention in Slack.
+  - [Conversation flow](/en/docs/slack/conversation-flow): Ask, plan, and hand off implementation to Andy in one thread.
+  - [Memory and context](/en/docs/slack/memory-and-context): How Andy remembers facts about your project.
+  - [Asking Andy about usage](/en/docs/slack/asking-andy-about-usage): Ask Andy how your team is using MeetAndy and get answers as numbers, lists, or charts.
+- Working with Andy in Google Chat
+  - [Working with Andy in Google Chat](/en/docs/google-chat): Mention Andy in any Google Chat space to ask questions, plan changes, and hand off implementation work.
+  - [Mentioning Andy](/en/docs/google-chat/mentioning-andy): How to get Andy's attention in Google Chat.
+  - [Conversation flow](/en/docs/google-chat/conversation-flow): Ask, plan, and hand off implementation to Andy in one Google Chat thread.
+  - [Memory and context](/en/docs/google-chat/memory-and-context): How Andy remembers facts about your project and reads thread context in Google Chat.
+- Web app
+  - [Web app](/en/docs/web-app): Manage tasks and review activity in the MeetAndy web app.
+  - [Dashboard](/en/docs/web-app/dashboard): Your home view in the MeetAndy web app.
+  - [Tasks list](/en/docs/web-app/tasks-list): All your tasks across every Space, grouped by status.
+  - [Creating a task](/en/docs/web-app/creating-a-task): How to give Andy a task from the web app.
+  - [Task details](/en/docs/web-app/task-details): The task details page collects the activity log, plan, walkthrough, branch, and pull request for one task in one place.
+  - [Task lifecycle](/en/docs/web-app/task-lifecycle): How a task moves from request to merged pull request, and what's expected of you at each step.
+- Jira
+  - [Jira](/en/docs/jira): How MeetAndy reads and updates Jira tickets.
+  - [Reading and writing tickets](/en/docs/jira/reading-and-writing-tickets): How Andy reads ticket details, comments, and updates Jira on your behalf.
+- Confluence
+  - [Confluence](/en/docs/confluence): How MeetAndy reads and writes Confluence pages.
+  - [Reading and writing pages](/en/docs/confluence/reading-and-writing-pages): How Andy reads Confluence pages, creates new ones, edits existing ones, and handles attachments.
+- Coding Agent
+  - [Coding Agent](/en/docs/coding-agent): The Coding Agent writes the code Andy plans, opens pull requests, and waits for your review.
+  - [How task execution works](/en/docs/coding-agent/how-task-execution-works): What happens when you hand off a task to Andy.
+  - [Reviewing Andy's work](/en/docs/coding-agent/reviewing-andys-work): Inspect, accept, or revise pull requests Andy opens.
+  - [Network access policy](/en/docs/coding-agent/network-access-policy): Choose how much outbound network access the Coding Agent's cloud environment gets, from a built-in allowlist to a custom domain list.
+- MCP server
+  - [MCP](/en/docs/mcp): Use MCP with MeetAndy — connect external tools like Claude Code to read your tasks, or connect third-party services like Notion so Andy can act on them.
+- Release notes
+  - [Release notes](/en/docs/release-notes): What's new in MeetAndy.
+
+# 文件
+
+- [歡迎使用 MeetAndy](/zh-TW/docs): MeetAndy 是 AI 專案助理，常駐於 Slack，協助你的團隊在 GitHub、GitLab 與 Jira 之間協作。
+- 快速開始
+  - [快速開始](/zh-TW/docs/getting-started): 為你的團隊設定 MeetAndy：啟用帳號、連接 Git host，視需要連接 Slack 與 Jira，最後建立第一個工作空間。
+  - [啟用你的帳號](/zh-TW/docs/getting-started/sign-up): 從邀請信啟用 MeetAndy 帳號，再從應用程式內邀請其他團隊成員。
+  - [連接 GitHub](/zh-TW/docs/getting-started/connect-github): 將 MeetAndy GitHub App 安裝到你的組織。
+  - [連接 GitLab](/zh-TW/docs/getting-started/connect-gitlab): 將 MeetAndy 連接到 GitLab.com 或自架的 GitLab 站台。
+  - [連接 Slack](/zh-TW/docs/getting-started/connect-slack): 安裝 MeetAndy Slack app 並授權你的工作區。
+  - [連接 Google Chat](/zh-TW/docs/getting-started/connect-google-chat): 將你的 Google Workspace 連接到 MeetAndy，讓團隊能在 Google Chat 空間中與 Andy 對話。
+  - [連接 Jira（選用）](/zh-TW/docs/getting-started/connect-jira): 將你的 Jira 站台連接到 MeetAndy，讓 Andy 能讀取與更新工單。
+  - [連接 Confluence（選用）](/zh-TW/docs/getting-started/connect-confluence): 把 Confluence 站台連到 MeetAndy，Andy 就能在工作空間中讀寫 Confluence 頁面。
+  - [建立工作空間](/zh-TW/docs/getting-started/create-a-space): 工作空間（Space）是 MeetAndy 用來組織專案工作的單位。
+  - [設定工作空間](/zh-TW/docs/getting-started/configure-your-space): 連接 GitHub repository、設定 Slack 頻道，並選擇性連接 Jira project。
+  - [Space skills](/zh-TW/docs/getting-started/space-skills): 瀏覽並管理 Coding Agent 在你的工作空間中使用的 Claude Code skills。
+- 在 Slack 中與 Andy 協作
+  - [在 Slack 中與 Andy 協作](/zh-TW/docs/slack): 在任何 Slack 頻道提及 Andy，就能提問、規劃變更，把實作工作交給它。
+  - [提及 Andy](/zh-TW/docs/slack/mentioning-andy): 如何在 Slack 中讓 Andy 注意到你。
+  - [對話流程](/zh-TW/docs/slack/conversation-flow): 在同一個討論串中向 Andy 提問、規劃、交辦實作工作。
+  - [記憶與脈絡](/zh-TW/docs/slack/memory-and-context): Andy 如何記住你的專案資訊。
+  - [向 Andy 詢問使用狀況](/zh-TW/docs/slack/asking-andy-about-usage): 在 Slack 中問 Andy 團隊怎麼使用 MeetAndy，得到數字、清單或圖表。
+- 在 Google Chat 中與 Andy 協作
+  - [在 Google Chat 中與 Andy 協作](/zh-TW/docs/google-chat): 在任何 Google Chat 空間提及 Andy，就能提問、規劃變更，把實作工作交給它。
+  - [提及 Andy](/zh-TW/docs/google-chat/mentioning-andy): 如何在 Google Chat 中獲得 Andy 的注意。
+  - [對話流程](/zh-TW/docs/google-chat/conversation-flow): 在一個 Google Chat 討論串中完成提問、規劃，再把實作工作交給 Andy。
+  - [記憶與脈絡](/zh-TW/docs/google-chat/memory-and-context): Andy 如何記住專案資訊，以及如何在 Google Chat 中讀取討論串脈絡。
+- 網頁應用
+  - [網頁應用](/zh-TW/docs/web-app): 在 MeetAndy 網頁應用中管理任務並檢視活動。
+  - [儀表板](/zh-TW/docs/web-app/dashboard): MeetAndy 網頁應用登入後的首頁。
+  - [任務列表](/zh-TW/docs/web-app/tasks-list): 跨所有工作空間的個人任務列表，依狀態分組。
+  - [建立任務](/zh-TW/docs/web-app/creating-a-task): 如何在網頁應用中把任務交給 Andy。
+  - [任務詳情](/zh-TW/docs/web-app/task-details): 任務詳情頁把單一任務的活動紀錄、規劃、變更說明、分支與 pull request 集中在同一頁。
+  - [任務生命週期](/zh-TW/docs/web-app/task-lifecycle): 任務從一個請求走到 PR 合併的完整路徑，以及每一步你要做的事。
+- Jira
+  - [Jira](/zh-TW/docs/jira): MeetAndy 如何讀取與更新 Jira 工單。
+  - [讀取與更新工單](/zh-TW/docs/jira/reading-and-writing-tickets): Andy 如何讀取工單細節、留言，並代你更新 Jira。
+- Confluence
+  - [Confluence](/zh-TW/docs/confluence): MeetAndy 如何讀寫 Confluence 頁面。
+  - [Confluence 頁面讀寫](/zh-TW/docs/confluence/reading-and-writing-pages): Andy 如何讀取 Confluence 頁面、建立新頁面、編輯既有頁面、處理附件。
+- Coding Agent
+  - [Coding Agent](/zh-TW/docs/coding-agent): Coding Agent 撰寫 Andy 規劃好的程式碼、開立 pull request，並等你審閱。
+  - [任務執行運作方式](/zh-TW/docs/coding-agent/how-task-execution-works): 你把任務交給 Andy 後，背後發生了什麼。
+  - [審閱 Andy 的工作成果](/zh-TW/docs/coding-agent/reviewing-andys-work): 檢視、接受或修改 Andy 開立的 pull request。
+  - [網路存取政策](/zh-TW/docs/coding-agent/network-access-policy): 選擇 Coding Agent 的雲端環境能取得多少對外網路存取，從內建允許清單到自訂網域清單。
+- MCP 伺服器
+  - [MCP](/zh-TW/docs/mcp): 在 MeetAndy 中使用 MCP，把 Claude Code 等外部工具連到 MeetAndy 讀取任務，或連接 Notion 等第三方服務讓 Andy 代為操作。
+- 版本說明
+  - [版本說明](/zh-TW/docs/release-notes): MeetAndy 的最新動態。
