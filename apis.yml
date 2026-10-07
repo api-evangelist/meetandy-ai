@@ -76,6 +76,10 @@ maintainers:
 - FN: MeetAndy Engineering
   email: dev@meetandy.ai
 common:
+- type: Pricing
+  url: https://meetandy.ai/pricing
+- type: Plans
+  url: plans/meetandy-ai-plans-pricing.yml
 - type: Website
   url: https://meetandy.ai
 - type: Documentation
