@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://meetandy.ai/pricing
+sources:
+- https://meetandy.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Flat monthly platform fee plus per-task charges; unlimited users on all plans. Enterprise is quote-based.
+plan_count: 3
+currency: USD
+plans:
+- name: Startup
+  price_text: USD $100 / month platform fee
+  price: 100
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: Unlimited people, All integrations
+  overage: USD $8 per task
+- name: Team
+  price_text: USD $500 / month platform fee
+  price: 500
+  currency: USD
+  period: month
+  unit: platform fee
+  included_quota: Unlimited people, All integrations, 100 tasks included
+  overage: USD $5 per task after that
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Unlimited people, Custom task volume and rate, Priority support, SSO
+rate_limit_statements:
+- A task covers up to 50 messages in the thread.
