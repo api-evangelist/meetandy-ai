@@ -52,3 +52,16 @@
     year: '2024'
   status: not-a-workflow
   arazzo: null
+- slug: meetandy-ai-atlassian-own
+  label: Atlassian (own)
+  partner: atlassian
+  partner_name: Atlassian (own)
+  category: Workflow
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://marketplace.atlassian.com/vendors/1226725/meetandy
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
